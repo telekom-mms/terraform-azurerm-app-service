@@ -16,6 +16,7 @@ output "linux_function_app" {
     linux_function_app => {
       id   = azurerm_linux_function_app.linux_function_app[linux_function_app].id
       name = azurerm_linux_function_app.linux_function_app[linux_function_app].name
+      default_hostname = azurerm_linux_function_app.linux_function_app[linux_function_app].default_hostname
     }
   }
 }
