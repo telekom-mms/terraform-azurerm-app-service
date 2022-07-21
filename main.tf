@@ -8,9 +8,9 @@
 resource "azurerm_service_plan" "service_plan" {
   for_each = var.service_plan
 
-  name                            = local.service_plan[each.key].name == "" ? each.key : local.service_plan[each.key].name
-  location                        = local.service_plan[each.key].location
-  resource_group_name             = local.service_plan[each.key].resource_group_name
+  name                         = local.service_plan[each.key].name == "" ? each.key : local.service_plan[each.key].name
+  location                     = local.service_plan[each.key].location
+  resource_group_name          = local.service_plan[each.key].resource_group_name
   os_type                      = local.service_plan[each.key].os_type
   sku_name                     = local.service_plan[each.key].sku_name
   app_service_environment_id   = local.service_plan[each.key].app_service_environment_id

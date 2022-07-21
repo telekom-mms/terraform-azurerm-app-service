@@ -13,14 +13,14 @@ locals {
   default = {
     # resource definition
     service_plan = {
-      name                            = ""
-      os_type = "Linux"
-      app_service_environment_id = null
+      name                         = ""
+      os_type                      = "Linux"
+      app_service_environment_id   = null
       maximum_elastic_worker_count = null
-      worker_count = null
-      per_site_scaling_enabled = false
-      zone_balancing_enabled = false
-      tags = {}
+      worker_count                 = null
+      per_site_scaling_enabled     = false
+      zone_balancing_enabled       = false
+      tags                         = {}
     }
     linux_function_app = {
       name                            = ""
