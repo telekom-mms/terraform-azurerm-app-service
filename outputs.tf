@@ -14,8 +14,8 @@ output "linux_function_app" {
   value = {
     for linux_function_app in keys(azurerm_linux_function_app.linux_function_app) :
     linux_function_app => {
-      id   = azurerm_linux_function_app.linux_function_app[linux_function_app].id
-      name = azurerm_linux_function_app.linux_function_app[linux_function_app].name
+      id               = azurerm_linux_function_app.linux_function_app[linux_function_app].id
+      name             = azurerm_linux_function_app.linux_function_app[linux_function_app].name
       default_hostname = azurerm_linux_function_app.linux_function_app[linux_function_app].default_hostname
     }
   }
