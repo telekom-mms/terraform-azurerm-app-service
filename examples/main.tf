@@ -11,18 +11,18 @@ module "app_service" {
     }
   }
   linux_function_app = {
-      app-service-web = {
-      location            = "westeurope"
-      resource_group_name = "service-env-rg"
+    app-service-web = {
+      location                    = "westeurope"
+      resource_group_name         = "service-env-rg"
       service_plan_id             = module.app_service.service_plan["spl-service-web"].id
       storage_account_name        = module.storage.storage_account["service"].name
       storage_account_access_key  = module.storage.storage_account["service"].primary_access_key
       functions_extension_version = "~3"
       https_only                  = false
-      app_settings                = {
+      app_settings = {
         WEBSITE_NODE_DEFAULT_VERSION = "10.14.1"
       }
-      site_config                 = {
+      site_config = {
         always_on = true
       }
       tags = {
@@ -30,6 +30,13 @@ module "app_service" {
       }
     }
   }
+  static_site = {
+    swa-service-domain = {
+      location            = "westeurope"
+      resource_group_name = "rg-service-env"
+      tags = {
+        service = "service-name"
+      }
+    }
+  }
 }
-
-
