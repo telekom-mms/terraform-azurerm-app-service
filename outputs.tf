@@ -21,7 +21,7 @@ output "linux_function_app" {
   }
 }
 
-output "static-site" {
+output "static_site" {
   description = "azurerm_static_site results"
   value = {
     for static_site in keys(azurerm_static_site.static_site) :
