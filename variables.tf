@@ -8,6 +8,11 @@ variable "linux_function_app" {
   default     = {}
   description = "resource definition, default settings are defined within locals and merged with var settings"
 }
+variable "static_site" {
+  type        = any
+  default     = {}
+  description = "resource definition, default settings are defined within locals and merged with var settings"
+}
 
 locals {
   default = {
@@ -188,6 +193,15 @@ locals {
       }
       tags = {}
     }
+    static_site = {
+      name     = ""
+      sku_tier = "Standard"
+      sku_size = "Standard"
+      identity = {
+        type         = ""
+        identity_ids = null
+      }
+    }
   }
 
   # compare and merge custom and default values
@@ -206,6 +220,10 @@ locals {
   linux_function_app_backup_values = {
     for linux_function_app in keys(var.linux_function_app) :
     linux_function_app => merge(local.default.linux_function_app.backup, local.linux_function_app_values[linux_function_app].backup)
+  }
+  static_site_values = {
+    for static_site in keys(var.static_site) :
+    static_site => merge(local.default.static_site, var.static_site[static_site])
   }
   # merge all custom and default values
   linux_function_app = {
@@ -248,5 +266,15 @@ locals {
   service_plan = {
     for service_plan in keys(var.service_plan) :
     service_plan => merge(local.default.service_plan, var.service_plan[service_plan])
+  }
+  static_site = {
+    for static_site in keys(var.static_site) :
+    static_site => merge(
+      local.static_site_values[static_site],
+      {
+        for config in ["identity"] :
+        config => merge(local.default.static_site[config], local.static_site_values[static_site][config])
+      }
+    )
   }
 }
