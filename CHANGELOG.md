@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.1](https://github.com/telekom-mms/terraform-azurerm-app-service/tree/2.0.1) (2023-11-16)
+
+[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-app-service/compare/2.0.0...2.0.1)
+
+**Fixed bugs:**
+
+- setting application\_stack requires empty docker {} block [\#14](https://github.com/telekom-mms/terraform-azurerm-app-service/issues/14)
+
 ## [2.0.0](https://github.com/telekom-mms/terraform-azurerm-app-service/tree/2.0.0) (2023-11-16)
 
 [Full Changelog](https://github.com/telekom-mms/terraform-azurerm-app-service/compare/1.0.2...2.0.0)
@@ -7,6 +15,12 @@
 **Closed issues:**
 
 - Dependency Dashboard [\#5](https://github.com/telekom-mms/terraform-azurerm-app-service/issues/5)
+
+**Merged pull requests:**
+
+- refactor module [\#15](https://github.com/telekom-mms/terraform-azurerm-app-service/pull/15) ([michaelamattes](https://github.com/michaelamattes))
+- add Renovate Dependency Dashboard and automatic merge on patch updates [\#13](https://github.com/telekom-mms/terraform-azurerm-app-service/pull/13) ([michaelamattes](https://github.com/michaelamattes))
+- Update actions/checkout action to v3.2.0 [\#12](https://github.com/telekom-mms/terraform-azurerm-app-service/pull/12) ([renovate[bot]](https://github.com/apps/renovate))
 
 ## [1.0.2](https://github.com/telekom-mms/terraform-azurerm-app-service/tree/1.0.2) (2022-11-24)
 
