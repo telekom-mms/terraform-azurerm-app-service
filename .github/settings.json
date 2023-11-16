@@ -7,9 +7,9 @@
     "topics": [
       "terraform",
       "azure",
-      "azurerm-service-plan",
-      "azurerm-linux-function-app",
-      "azurerm-static-site"
+      "service-plan",
+      "linux-function-app",
+      "static-site"
     ]
   }
 }
