@@ -1,34 +1,42 @@
 # Changelog
 
-## [1.0.2](https://github.com/T-Systems-MMS/terraform-azurerm-app-service/tree/1.0.2) (2022-11-24)
+## [2.0.0](https://github.com/telekom-mms/terraform-azurerm-app-service/tree/2.0.0) (2023-11-16)
 
-[Full Changelog](https://github.com/T-Systems-MMS/terraform-azurerm-app-service/compare/1.0.1...1.0.2)
+[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-app-service/compare/1.0.2...2.0.0)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#5](https://github.com/telekom-mms/terraform-azurerm-app-service/issues/5)
+
+## [1.0.2](https://github.com/telekom-mms/terraform-azurerm-app-service/tree/1.0.2) (2022-11-24)
+
+[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-app-service/compare/1.0.1...1.0.2)
 
 **Implemented enhancements:**
 
-- Add new resource static site [\#10](https://github.com/T-Systems-MMS/terraform-azurerm-app-service/pull/10) ([habr-mms](https://github.com/habr-mms))
+- Add new resource static site [\#10](https://github.com/telekom-mms/terraform-azurerm-app-service/pull/10) ([habr-mms](https://github.com/habr-mms))
 
 **Merged pull requests:**
 
-- Update actions/checkout action to v3.1.0 [\#11](https://github.com/T-Systems-MMS/terraform-azurerm-app-service/pull/11) ([renovate[bot]](https://github.com/apps/renovate))
-- Update hashicorp/setup-terraform action to v2 [\#9](https://github.com/T-Systems-MMS/terraform-azurerm-app-service/pull/9) ([renovate[bot]](https://github.com/apps/renovate))
-- Update creyD/prettier\_action action to v4 [\#8](https://github.com/T-Systems-MMS/terraform-azurerm-app-service/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
-- Update actions/checkout action to v3 [\#7](https://github.com/T-Systems-MMS/terraform-azurerm-app-service/pull/7) ([renovate[bot]](https://github.com/apps/renovate))
-- Update github-actions-x/commit action to v2.9 [\#6](https://github.com/T-Systems-MMS/terraform-azurerm-app-service/pull/6) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v3.1.0 [\#11](https://github.com/telekom-mms/terraform-azurerm-app-service/pull/11) ([renovate[bot]](https://github.com/apps/renovate))
+- Update hashicorp/setup-terraform action to v2 [\#9](https://github.com/telekom-mms/terraform-azurerm-app-service/pull/9) ([renovate[bot]](https://github.com/apps/renovate))
+- Update creyD/prettier\_action action to v4 [\#8](https://github.com/telekom-mms/terraform-azurerm-app-service/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v3 [\#7](https://github.com/telekom-mms/terraform-azurerm-app-service/pull/7) ([renovate[bot]](https://github.com/apps/renovate))
+- Update github-actions-x/commit action to v2.9 [\#6](https://github.com/telekom-mms/terraform-azurerm-app-service/pull/6) ([renovate[bot]](https://github.com/apps/renovate))
 
-## [1.0.1](https://github.com/T-Systems-MMS/terraform-azurerm-app-service/tree/1.0.1) (2022-07-25)
+## [1.0.1](https://github.com/telekom-mms/terraform-azurerm-app-service/tree/1.0.1) (2022-07-25)
 
-[Full Changelog](https://github.com/T-Systems-MMS/terraform-azurerm-app-service/compare/1.0.0...1.0.1)
+[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-app-service/compare/1.0.0...1.0.1)
 
 **Merged pull requests:**
 
-- Update creyD/prettier\_action action to v3.3 [\#4](https://github.com/T-Systems-MMS/terraform-azurerm-app-service/pull/4) ([renovate[bot]](https://github.com/apps/renovate))
-- Update actions/checkout action to v2.4.2 [\#3](https://github.com/T-Systems-MMS/terraform-azurerm-app-service/pull/3) ([renovate[bot]](https://github.com/apps/renovate))
-- add example and renovate config [\#1](https://github.com/T-Systems-MMS/terraform-azurerm-app-service/pull/1) ([michaelamattes](https://github.com/michaelamattes))
+- Update creyD/prettier\_action action to v3.3 [\#4](https://github.com/telekom-mms/terraform-azurerm-app-service/pull/4) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v2.4.2 [\#3](https://github.com/telekom-mms/terraform-azurerm-app-service/pull/3) ([renovate[bot]](https://github.com/apps/renovate))
+- add example and renovate config [\#1](https://github.com/telekom-mms/terraform-azurerm-app-service/pull/1) ([michaelamattes](https://github.com/michaelamattes))
 
-## [1.0.0](https://github.com/T-Systems-MMS/terraform-azurerm-app-service/tree/1.0.0) (2022-07-22)
+## [1.0.0](https://github.com/telekom-mms/terraform-azurerm-app-service/tree/1.0.0) (2022-07-22)
 
-[Full Changelog](https://github.com/T-Systems-MMS/terraform-azurerm-app-service/compare/e5a19391336c8e71c678e167fbdb0736ade8e816...1.0.0)
+[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-app-service/compare/e5a19391336c8e71c678e167fbdb0736ade8e816...1.0.0)
 
 
 
