@@ -18,4 +18,4 @@ jobs:
     with:
       files: README.md
     secrets:
-      GH_APP_CREDENTIALS_TOKEN: ${{ secrets.GH_BRANCH_PROTECTION_APP_TOKEN }}
+      GH_BRANCH_PROTECTION_APP_TOKEN: ${{ secrets.GH_BRANCH_PROTECTION_APP_TOKEN }}
