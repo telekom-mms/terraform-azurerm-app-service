@@ -1,8 +1,12 @@
 # Changelog
 
-## [2.0.1](https://github.com/telekom-mms/terraform-azurerm-app-service/tree/2.0.1) (2023-11-20)
+## [2.0.1](https://github.com/telekom-mms/terraform-azurerm-app-service/tree/2.0.1) (2024-08-28)
 
 [Full Changelog](https://github.com/telekom-mms/terraform-azurerm-app-service/compare/2.0.0...2.0.1)
+
+**Implemented enhancements:**
+
+- Pin version of azurerm to compatible state [\#19](https://github.com/telekom-mms/terraform-azurerm-app-service/pull/19) ([michaelamattes](https://github.com/michaelamattes))
 
 **Fixed bugs:**
 
@@ -11,10 +15,6 @@
 ## [2.0.0](https://github.com/telekom-mms/terraform-azurerm-app-service/tree/2.0.0) (2023-11-16)
 
 [Full Changelog](https://github.com/telekom-mms/terraform-azurerm-app-service/compare/1.0.2...2.0.0)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#5](https://github.com/telekom-mms/terraform-azurerm-app-service/issues/5)
 
 **Merged pull requests:**
 
