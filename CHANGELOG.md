@@ -1,12 +1,16 @@
 # Changelog
 
-## [2.0.2](https://github.com/telekom-mms/terraform-azurerm-app-service/tree/2.0.2) (2025-08-28)
+## [3.0.0](https://github.com/telekom-mms/terraform-azurerm-app-service/tree/3.0.0) (2025-12-11)
 
-[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-app-service/compare/2.0.1...2.0.2)
+[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-app-service/compare/2.0.1...3.0.0)
 
 **Fixed bugs:**
 
 - fix terrascan workflow run [\#20](https://github.com/telekom-mms/terraform-azurerm-app-service/pull/20) ([michaelamattes](https://github.com/michaelamattes))
+
+**Merged pull requests:**
+
+- Upgrade azurerm version to 4 [\#21](https://github.com/telekom-mms/terraform-azurerm-app-service/pull/21) ([michaelamattes](https://github.com/michaelamattes))
 
 ## [2.0.1](https://github.com/telekom-mms/terraform-azurerm-app-service/tree/2.0.1) (2024-08-28)
 
