@@ -5,11 +5,11 @@
     "default_branch": "main",
     "homepage": "https://telekom-mms.github.io/terraform-template",
     "topics": [
-      "terraform",
       "azure",
-      "service-plan",
       "linux-function-app",
-      "static-site"
+      "service-plan",
+      "static-site",
+      "terraform"
     ]
   }
 }
